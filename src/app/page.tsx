@@ -1,3 +1,4 @@
+import { SectionForm } from "@/components/SectionForm";
 import { SectionHero } from "@/components/SectionHero";
 import { SectionImgs } from "@/components/SectionImgs";
 import { SectionSomos } from "@/components/SectionSomos";
@@ -10,6 +11,7 @@ export default function Home() {
       <SectionHero/>
       <SectionSomos/>
       <SectionImgs/>
+      <SectionForm/>
       </>
   );
 }
