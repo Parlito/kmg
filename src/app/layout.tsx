@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth focus:scroll-auto">
       <body className={lato.className}>
       <Header/>
       {children}</body>

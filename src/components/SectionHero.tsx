@@ -4,11 +4,11 @@ import Image from "next/image";
 import imgAppStore from "@/assets/btn-apple-store.svg"
 import imgGooglePlay from "@/assets/btn-google-play.svg"
 import Arrow from "@/assets/arrow-explorer.svg"
-import WomanImage from "@/assets/woman.png"
+import MichelImg1 from "@/assets/michael-1.png"
 
 export function SectionHero(){
     return(
-        <section className=" w-full h-[704px] bg-img_bg_hero bg-no-repeat bg-center bg-cover">
+        <section className=" w-full h-[704px] bg-blue1 bg-no-repeat bg-center bg-cover">
             <Container>
                 <div className=" flex-1 max-w-[500px]">
                     <h1 className=" text-white text-7xl font-bold mb-4">Tenha seu banco na palma da mão.</h1>
@@ -36,7 +36,7 @@ export function SectionHero(){
                     </button>
                 </div>
 
-                <Image src={WomanImage} alt="Wowan" className="mr-[41px]"/>
+                <Image src={MichelImg1} alt="Michael" className="mr-[41px] w-[399px]"/>
 
             </Container>
         </section>
