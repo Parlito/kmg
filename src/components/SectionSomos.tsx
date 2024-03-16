@@ -63,7 +63,7 @@ export function SectionSomos(){
             <div className=" absolute top-0 right-0  flex items-center w-[32%] h-full bg-gray-phone">
                 <Image
                     src={Michael1}
-                    alt="Phone"
+                    alt=""
                     className=" translate-x-[-50%]"
                 />
             </div>
