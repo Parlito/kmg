@@ -9,7 +9,9 @@ const config: Config = {
   theme: {
     backgroundImage: {
       'img_bg_hero': "url('../assets/bg-hero.png')",
-      'bg-principal': "linear-gradient(90deg, rgba(32,71,186,1) 0%, rgba(32,71,186,1) 35%, rgba(4,178,249,1) 100%)"
+      'bg-principal': "linear-gradient(90deg, rgba(32,71,186,1) 0%, rgba(32,71,186,1) 35%, rgba(4,178,249,1) 100%)",
+      'bg-second': "linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(244,244,244,1) 14%)",
+      'bg-three': " linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 80%)"
     },
     extend: {
       colors: {

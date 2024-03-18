@@ -25,7 +25,7 @@ export function SectionHero(){
                     </button>
                 </div>
 
-                <Image src={MichelImg1} alt="Michael" className="mr-[41px]"/>
+                <Image src={MichelImg1} alt="Michael" className="mr-[41px] "/>
 
             </Container>
         </section>

@@ -28,7 +28,7 @@ import { Container } from "./Container";
 
 export function SectionImgs(){
     return(
-    <section className="relative w-full h-[790px] ">
+    <section className="relative w-full h-[790px] bg-bg-three">
         <Container>
             <div className=" flex-1 max-w-[594px] pt-32 ">
                 <Swiper 
@@ -96,6 +96,13 @@ export function SectionImgs(){
                     <SwiperSlide key={8}>
                     <Image 
                             src={Img8}
+                            alt=""
+                            className=" rounded-md w-[700px] h-[500px] object-cover"
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide key={9}>
+                    <Image 
+                            src={Img10}
                             alt=""
                             className=" rounded-md w-[700px] h-[500px] object-cover"
                         />

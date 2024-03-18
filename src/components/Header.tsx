@@ -20,16 +20,6 @@ export function Header(){
                     <Image src={Logo} alt="Logo"/>
                     <ul className='flex items-center gap-12 '>
                         <li>
-                            <ItemMenu
-                                name="Para você"
-                            />
-                        </li>
-                        <li>
-                            <ItemMenu
-                                name="Para empresas"
-                            />
-                        </li>
-                        <li>
                             <Link href="#servicos" >
                             <ItemMenu
                                 name="Serviços"
@@ -38,7 +28,12 @@ export function Header(){
                         </li>
                         <li>
                             <ItemMenu
-                                name="Ajuda"
+                                name="Consultório"
+                            />
+                        </li>
+                        <li>
+                            <ItemMenu
+                                name="Agende já!"
                             />
                         </li>
                     </ul>
