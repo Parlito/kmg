@@ -28,7 +28,7 @@ import { Container } from "./Container";
 
 export function SectionImgs(){
     return(
-    <section className="relative w-full h-[790px] bg-bg-three">
+    <section id="consul" className="relative w-full h-[790px] bg-bg-three">
         <Container>
             <div className=" flex-1 max-w-[594px] pt-32 ">
                 <Swiper 

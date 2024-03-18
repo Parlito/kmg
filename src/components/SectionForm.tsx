@@ -10,7 +10,7 @@ export function SectionForm(){
 
 
     return(
-        <section className=" w-full h-[965px] bg-bg-principal bg-no-repeat bg-center bg-cover ">
+        <section id="agenda" className=" w-full h-[965px] bg-bg-principal bg-no-repeat bg-center bg-cover ">
             <Container>
                 <Form/>
             </Container>

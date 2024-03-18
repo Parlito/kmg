@@ -27,14 +27,18 @@ export function Header(){
                             </Link>
                         </li>
                         <li>
+                            <Link href="#consul" >
                             <ItemMenu
                                 name="Consultório"
                             />
+                            </Link>
                         </li>
                         <li>
+                            <Link href="#agenda" >
                             <ItemMenu
                                 name="Agende já!"
                             />
+                            </Link>
                         </li>
                     </ul>
                 </div>

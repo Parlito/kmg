@@ -4,7 +4,7 @@ import Image from "next/image";
 import imgAppStore from "@/assets/btn-apple-store.svg"
 import imgGooglePlay from "@/assets/btn-google-play.svg"
 import Arrow from "@/assets/arrow-explorer.svg"
-import MichelImg1 from "@/assets/michael_prin.png"
+import MichelImg1 from "@/assets/Michael-esposa.png"
 
 export function SectionHero(){
     return(
