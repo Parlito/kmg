@@ -32,8 +32,8 @@ export function Form(){
 
     const link = url;
     
-    function sendEmail(e){
-        e.preventDefault();
+    function sendEmail(){
+        
         
 
         if(name === '' || phone === '' || exame === '' || desc === '')
@@ -54,7 +54,6 @@ export function Form(){
         .then((response) => {
             console.log("EMAIL ENVIADO", response.status, response.text)
             setName('')
-            sendEmail('')
             setPhone('')
             setExame('')
             setDesc('')
@@ -131,3 +130,4 @@ export function Form(){
         
     )
 }
+
