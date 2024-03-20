@@ -19,8 +19,8 @@ export function SectionSomos(){
             <Container>
                 <div className=" flex-1 max-w-[594px] pt-16">
                     <span className="block text-blue1 text-sm font-bold uppercase mb-9">serviços exclusivos</span>
-                    <h2 className=" text-primary-gray text-[56px] font-bold leading-tight mb-6">Os melhores serviços em um só lugar!</h2>
-                    <p className=" text-lg max-w-[554px] mb-16 text-second-gray">Veja alguns de nossos melhores serviços, sem decepcionar na qualidade.
+                    <h2 className=" text-primary-gray text-[56px] font-bold leading-tight mb-6 max-sm:text-4xl">Os melhores serviços em um só lugar!</h2>
+                    <p className=" text-lg max-w-[554px] mb-16 text-second-gray max-sm:mb-10">Veja alguns de nossos melhores serviços, sem decepcionar na qualidade.
                     </p>
                     <ul className=" flex flex-col items-start gap-9">
                         <li className="flex items-center gap-9 pb-9 border-b-[1px] border-opacity-gray">
@@ -62,11 +62,11 @@ export function SectionSomos(){
                     </ul>
                 </div>
             </Container>
-            <div className=" absolute top-0 right-0  flex items-center w-[32%] h-full bg-bg-second">
+            <div className=" absolute top-0 right-0  flex items-center w-[32%] h-full bg-bg-second max-sm:w-0">
                 <Image
                     src={Michael1}
                     alt=""
-                    className=" translate-x-[-50%]"
+                    className=" translate-x-[-50%] max-sm:w-0"
                 />
             </div>
         </section>

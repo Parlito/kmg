@@ -28,9 +28,10 @@ import { Container } from "./Container";
 
 export function SectionImgs(){
     return(
-    <section id="consul" className="relative w-full h-[790px] bg-bg-three">
+    <section id="consul" className="relative w-full h-[790px] bg-bg-three max-sm:h-[600px]">
         <Container>
-            <div className=" flex-1 max-w-[594px] pt-32 ">
+            <div className=" flex-1 max-w-[594px] pt-32 max-sm:pt-10 ">
+            <h2 className=" lg:hidden text-primary-gray text-4xl font-bold leading-tight mb-6 md-4">Muito além de uma consulta, uma experiência.</h2>
                 <Swiper 
                     slidesPerView={1}
                     navigation
@@ -42,75 +43,75 @@ export function SectionImgs(){
                     delay: 1500,
                     disableOnInteraction: false,
                     }}
-                     className=" h-[500px] w-[700px]"
+                     className=" h-[500px] w-[700px] max-sm:h-[300px] max-sm:w-[300px]"
                 >
                     <SwiperSlide key={1}>
                         <Image 
                             src={Img1}
                             alt=""
-                            className=" rounded-md w-[700px] h-[900px] object-cover"
+                            className=" rounded-md w-[700px] h-[900px] object-cover max-sm:h-[300px] max-sm:w-[300px]"
                         />
                     </SwiperSlide>
                     <SwiperSlide key={2}>
                     <Image 
                             src={Img2}
                             alt=""
-                            className=" rounded-md w-[700px] h-[500px] object-cover"
+                            className=" rounded-md w-[700px] h-[500px] object-cover max-sm:h-[300px] max-sm:w-[300px]"
                         />
                     </SwiperSlide>
                     <SwiperSlide key={3}>
                     <Image 
                             src={Img3}
                             alt=""
-                            className="  rounded-md w-[700px] h-[500px] object-cover"
+                            className="  rounded-md w-[700px] h-[500px] object-cover max-sm:h-[300px] max-sm:w-[300px]"
                         />
                     </SwiperSlide>
                     <SwiperSlide key={4}>
                     <Image 
                             src={Img4}
                             alt=""
-                            className=" rounded-md w-[700px] h-[500px] object-cover"
+                            className=" rounded-md w-[700px] h-[500px] object-cover max-sm:h-[300px] max-sm:w-[300px]"
                         />
                     </SwiperSlide>
                     <SwiperSlide key={5}>
                     <Image 
                             src={Img5}
                             alt=""
-                            className=" rounded-md w-[700px] h-[500px] object-cover"
+                            className=" rounded-md w-[700px] h-[500px] object-cover max-sm:h-[300px] max-sm:w-[300px]"
                         />
                     </SwiperSlide>
                     <SwiperSlide key={6}>
                     <Image 
                             src={Img6}
                             alt=""
-                            className=" rounded-md w-[700px] h-[500px] object-cover"
+                            className=" rounded-md w-[700px] h-[500px] object-cover max-sm:h-[300px] max-sm:w-[300px]"
                         />
                     </SwiperSlide>
                     <SwiperSlide key={7}>
                     <Image 
                             src={Img7}
                             alt=""
-                            className=" rounded-md w-[700px] h-[500px] object-cover"
+                            className=" rounded-md w-[700px] h-[500px] object-cover max-sm:h-[300px] max-sm:w-[300px]"
                         />
                     </SwiperSlide>
                     <SwiperSlide key={8}>
                     <Image 
                             src={Img8}
                             alt=""
-                            className=" rounded-md w-[700px] h-[500px] object-cover"
+                            className=" rounded-md w-[700px] h-[500px] object-cover max-sm:h-[300px] max-sm:w-[300px]"
                         />
                     </SwiperSlide>
                     <SwiperSlide key={9}>
                     <Image 
                             src={Img10}
                             alt=""
-                            className=" rounded-md w-[700px] h-[500px] object-cover"
+                            className=" rounded-md w-[700px] h-[500px] object-cover max-sm:h-[300px] max-sm:w-[300px]"
                         />
                     </SwiperSlide>
                 </Swiper>
             </div>
         </Container>
-        <div className=" absolute top-0 right-10 flex items-center w-[32%] h-full">
+        <div className=" absolute top-0 right-10 flex items-center w-[32%] h-full max-sm:hidden">
                     <h2 className=" text-primary-gray text-[56px] font-bold leading-tight mb-6">Muito além de uma consulta, uma experiência.</h2>      
         </div>
     </section>

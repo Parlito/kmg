@@ -14,6 +14,8 @@ const config: Config = {
       'bg-three': " linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 80%)"
     },
     extend: {
+      screens: {
+        'promax': '414px'},
       colors: {
       'primary-blue': '#106EB0',
       'primary-orange': '#EC7000',

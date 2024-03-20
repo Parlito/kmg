@@ -11,14 +11,14 @@ import { Container } from './Container';
 export function Header(){
 
     return(
-        <header className='relative flex items-center w-full h-20 bg-white'>
+        <header id="header" className='relative flex items-center w-full h-20 bg-white'>
             <div className='absolute top-0 right-0 w-[19%] h-full z-0'>
             </div>
             <Container>
-                <div className='flex flex-1 items-center justify-between'>
+            <div className='flex flex-1 items-center justify-between '>
                 <div className='flex items-center gap-14'>
-                    <Image src={Logo} alt="Logo"/>
-                    <ul className='flex items-center gap-12 '>
+                <Image src={Logo} alt="Logo" className='max-sm:ml-20 max-sm:w-48'/>
+                    <ul className='flex items-center gap-12 max-sm:hidden'>
                         <li>
                             <Link href="#servicos" >
                             <ItemMenu
