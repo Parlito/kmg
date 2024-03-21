@@ -10,7 +10,7 @@ import OptionsIcon from "@/assets/icon-options.svg";
 import CardIcon from "@/assets/icon-card.svg";
 
 import Logo2 from "@/assets/logo2.png";
-import Michael1 from "@/assets/Michael-1.png";
+import Michael1 from "@/assets/michael-1.png";
 
 export function SectionSomos(){
 

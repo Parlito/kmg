@@ -9,7 +9,7 @@ import emailjs from '@emailjs/browser';
 import zap from "@/assets/whatsapp-logo.svg"
 import mail from "@/assets/mail.svg"
 
-import MichelImg1 from "@/assets/michael3.png"
+import MichelImg1 from "@/assets/Michael3.png"
 import { Container } from "./Container";
 
 
