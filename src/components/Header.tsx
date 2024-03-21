@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import Logo from '@/assets/logo2.png';
+import Logo from '@/assets/logo.png';
+import Logo2 from '@/assets/logo2.png';
 import { ItemMenu } from './ItemMenu';
 import { Search } from './Search';
 import IconUser from '@/assets/icon-user.svg';
@@ -17,8 +18,8 @@ export function Header(){
             <Container>
             <div className='flex flex-1 items-center justify-between '>
                 <div className='flex items-center gap-14'>
-                <Image src={Logo} alt="Logo" className='max-sm:hidden max-sm:w-48'/>
-                <Image src={Logo} alt="Logo" className=' lg:hidden max-sm:ml-20 max-sm:w-48'/>
+                <Image src={Logo} alt="Logo" className='max-sm:hidden max-sm:ml-20 max-sm:w-48'/>
+                <Image src={Logo2} alt="Logo" className=' lg:hidden max-sm:ml-20 max-sm:w-48'/>
                     <ul className='flex items-center gap-12 max-sm:hidden'>
                         <li>
                             <Link href="#servicos" >
